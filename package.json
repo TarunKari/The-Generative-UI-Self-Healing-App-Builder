@@ -1,0 +1,37 @@
+{
+  "name": "generative-ui-builder",
+  "version": "1.0.0",
+  "description": "AI-powered UI builder with vision-based self-healing capabilities",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "ai",
+    "ui-builder",
+    "generative",
+    "vision",
+    "self-healing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.111",
+    "@e2b/code-interpreter": "^2.7.1",
+    "@langchain/langgraph": "^0.0.4",
+    "ai": "^6.0.258",
+    "next": "^16.3.1",
+    "puppeteer": "^24.43.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "sharp": "^0.35.3",
+    "uuid": "^14.0.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "typescript": "7.0.2"
+  }
+}
